@@ -1,0 +1,10 @@
+<suite name= "login suite">
+	<test thread-count="5" name="Client Search Test">
+		<parameter name="os" value="Window"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<!-- <class name="testCases.TC003_SearchClientTest"></class>-->
+			<class name="testCases.TC004_PaymentTest"></class>
+		</classes>
+	</test>
+</suite>

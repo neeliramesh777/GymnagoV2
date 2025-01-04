@@ -1,0 +1,52 @@
+22:52:10.417 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+22:52:10.425 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+22:54:23.000 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+22:54:23.017 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+22:54:23.354 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+22:54:48.911 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+22:54:48.911 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+22:54:50.459 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:09:19.939 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:09:19.957 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+23:09:20.331 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+23:09:46.126 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+23:09:46.126 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+23:09:50.507 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:10:29.138 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:10:29.155 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+23:10:29.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+23:10:51.892 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+23:10:51.892 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+23:10:53.469 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:16:09.671 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:16:09.688 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+23:16:10.035 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+23:16:28.744 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+23:16:28.744 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+23:16:30.301 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:21:21.286 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:21:21.303 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+23:21:21.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+23:21:49.376 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+23:21:49.376 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+23:21:50.930 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:26:26.918 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:26:26.935 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+23:26:27.288 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+23:26:48.949 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+23:26:48.949 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+23:26:50.614 [main] INFO  testCases.TC004_PaymentTest - Selected client
+23:30:46.186 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+23:30:46.203 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.

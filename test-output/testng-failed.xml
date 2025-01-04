@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Logintestsuite]">
+  <test thread-count="5" name="Login test(failed)">
+    <parameter name="os" value="Window"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC006_LoginWithInvalid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithInvalid"/>
+        </methods>
+      </class> <!-- testCases.TC006_LoginWithInvalid -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [Logintestsuite] -->

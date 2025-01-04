@@ -1,0 +1,49 @@
+10:18:20.886 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:18:21.296 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:18:40.350 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:19:29.227 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:19:29.250 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:19:29.633 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:19:42.967 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:28:04.422 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:28:04.439 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:28:04.787 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:28:29.908 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:38:05.464 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:38:05.482 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:38:05.828 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:38:24.301 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:46:44.137 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:46:44.154 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:46:44.517 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:47:22.046 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:47:29.647 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:47:29.666 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:47:30.043 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:47:50.130 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:53:21.986 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:53:22.003 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:53:22.373 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:53:41.844 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:55:16.555 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:55:16.573 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+10:55:16.940 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+10:55:44.722 [main] INFO  testCases.TC003_SearchClientTest - Searching
+10:59:41.170 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+10:59:41.193 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.

@@ -1,0 +1,12 @@
+15:54:24.493 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\logintest.xml
+
+15:54:34.272 [main] INFO  testCases.TC005_LoginTest - ***Starting login test***
+15:54:45.935 [main] INFO  testCases.TC006_LoginWithInvalid - ***Starting login test***
+16:01:02.041 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\logintest.xml"
+16:01:02.058 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\logintest.xml] otherwise TestNG may fail or not work as expected.
+16:01:02.424 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\logintest.xml
+
+16:01:18.921 [main] INFO  testCases.TC005_LoginTest - ***Starting login test***
+16:01:26.902 [main] INFO  testCases.TC006_LoginWithInvalid - ***Starting login test***
