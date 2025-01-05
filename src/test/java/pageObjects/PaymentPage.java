@@ -45,7 +45,7 @@ WebElement txtMembershipname;
 @FindBy(xpath = "//button[normalize-space()='Go to payment']")
 WebElement btnGotoPayment;
 
-@FindBy(xpath = "//body[1]/div[1]/div[1]/section[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[5]/div[1]/div[4]/div[1]/div[2]/div[1]/span[1]/img[1]")
+@FindBy(xpath = "//span/img[@src=\"https://gymnagos3.s3.me-south-1.amazonaws.com/spratan/profile/aa29e06b-2677-4351-b2ef-a93131030483-money.png\"]")
 WebElement btnPaymentmethod;
 
 @FindBy(xpath = "//button[contains(text(), 'Pay ') and @type='submit']")
@@ -102,8 +102,8 @@ public void selectClient(String name) {
     wait.until(ExpectedConditions.elementToBeClickable(txtClient));
     
         // Handle non-interactable case with JavaScript
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].value = '';", txtClient);
+        //JavascriptExecutor js = (JavascriptExecutor) driver;
+        //js.executeScript("arguments[0].value = '';", txtClient);
   //  txtClient.click();
     txtClient.sendKeys(name);
     

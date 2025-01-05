@@ -8,12 +8,32 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Logintestsuite</th></tr>
-<tr><td><a href="#t0">Login test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,469</td><td></td><td></td></tr>
+<tr><th colspan="8">login suite</th></tr>
+<tr><td><a href="#t0">Client Search Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,710</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Logintestsuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC005_LoginTest</td><td><a href="#m0">verifyLoginWithValid</a></td><td rowspan="1">1734872478914</td><td rowspan="1">2685</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC006_LoginWithInvalid</td><td><a href="#m1">verifyLoginWithInvalid</a></td><td rowspan="1">1734872486899</td><td rowspan="1">1831</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">login suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Client Search Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC007_AddMembershipTest</td><td><a href="#m0">verifyAddMembership</a></td><td rowspan="1">1736105091852</td><td rowspan="1">7195</td></tr></tbody>
 </table>
-<h2>Login test</h2><h3 id="m0">testCases.TC005_LoginTest#verifyLoginWithValid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC006_LoginWithInvalid#verifyLoginWithInvalid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Client Search Test</h2><h3 id="m0">testCases.TC007_AddMembershipTest#verifyAddMembership</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (297, 165). Other element would receive the click: &lt;li class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-17pxts6&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-selected=&quot;false&quot; data-value=&quot;67495f7644535426e2a3ec95&quot;&gt;...&lt;/li&gt;
+  (Session info: chrome=131.0.6778.109)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c8dc6365e47b1e4f08a0502b7bdd46c, clickElement {id=f.4FAD4C407FDA902C3025AAB38630F92D.d.BCE3880036D919C1B14913ECAE774C00.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c8dc6365e47b1e4f08a0502b7bdd46c)] -&gt; xpath: //ul/li/span[contains(text(), &apos;One month&apos;)]]
+Session ID: 5c8dc6365e47b1e4f08a0502b7bdd46c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageObjects.AddMembershipPage.selectValidityPeriod(AddMembershipPage.java:63)
+	at testCases.TC007_AddMembershipTest.verifyAddMembership(TC007_AddMembershipTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -4,7 +4,8 @@
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<!-- <class name="testCases.TC003_SearchClientTest"></class>-->
-			<class name="testCases.TC004_PaymentTest"></class>
+			<!-- class name="testCases.TC004_PaymentTest"></class>-->
+			<class name="testCases.TC007_AddMembershipTest"></class>
 		</classes>
 	</test>
 </suite>

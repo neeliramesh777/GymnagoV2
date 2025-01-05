@@ -5,13 +5,13 @@
     <parameter name="os" value="Window"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC004_PaymentTest">
+      <class name="testCases.TC007_AddMembershipTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyAddMembership"/>
           <include name="setup"/>
-          <include name="verifyPayment"/>
         </methods>
-      </class> <!-- testCases.TC004_PaymentTest -->
+      </class> <!-- testCases.TC007_AddMembershipTest -->
     </classes>
   </test> <!-- Client Search Test(failed) -->
 </suite> <!-- Failed suite [login suite] -->

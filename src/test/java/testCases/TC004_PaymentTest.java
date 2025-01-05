@@ -51,16 +51,16 @@ public class TC004_PaymentTest extends BaseClass{
 		PaymentPage pp=new PaymentPage(driver);
 		pp.clickMembershipTab();
 		//pp.clickSalesBy();
-		pp.selectSalesBy("Michael RN");
+		pp.selectSalesBy("Raju RN");
 		Thread.sleep(10);
 		logger.info("Selecting client");
 		    	logger.info("Clicking on search");
-		    	pp.selectClient("Teja RN");
+		    	pp.selectClient("Peter RN");
 		    	logger.info("Selected client");
 		  
 		pp.selectMembershipCategory("Standard Membership");
 		logger.info("Selected membership category");
-		pp.selectMembership("One Month Pack");
+		pp.selectMembership("One day membership");
 		logger.info("Selected membership");
 		pp.clickGototPayment();
 		logger.info("Clicked gotopayment");
@@ -69,7 +69,7 @@ public class TC004_PaymentTest extends BaseClass{
 		//pp.clickPay();
 		//logger.info("Clicked pay");
 		
-		if(pp.isInvoiceDisplayed("Teja RN")) {
+		if(pp.isInvoiceDisplayed("Peter RN")) {
 		Assert.assertEquals(true, "Pass");
 		pp.clickClose();
 		}else {

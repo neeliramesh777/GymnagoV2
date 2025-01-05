@@ -1,0 +1,50 @@
+22:27:57.151 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.159 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.159 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.159 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.159 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.160 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.161 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.161 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.161 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.162 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.163 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.164 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.164 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.164 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:27:57.164 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:27:57.173 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\Temp\testng-eclipse--1219337854\testng-customsuite.xml
+
+22:27:57.195 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+22:27:57.301 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4108fa66: 22 ms
+22:27:57.359 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@173b9122: 58 ms
+22:27:57.372 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@69adf72c: 13 ms
+22:27:57.384 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@200606de: 12 ms
+22:27:57.394 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@473b3b7a: 9 ms
+22:27:57.401 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@133e019b: 7 ms
+22:27:57.402 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@41382722: 0 ms
+22:28:14.490 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+22:28:14.508 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+22:28:14.865 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+22:28:27.462 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+22:28:27.462 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+22:28:28.856 [main] INFO  testCases.TC004_PaymentTest - Selected client
+22:28:29.177 [main] INFO  testCases.TC004_PaymentTest - Selected membership category
+22:28:29.717 [main] INFO  testCases.TC004_PaymentTest - Selected membership
+22:30:26.480 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+22:30:26.498 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.
+22:30:26.851 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml
+
+22:30:41.481 [main] INFO  testCases.TC004_PaymentTest - Selecting client
+22:30:41.481 [main] INFO  testCases.TC004_PaymentTest - Clicking on search
+22:30:43.471 [main] INFO  testCases.TC004_PaymentTest - Selected client
+22:30:43.830 [main] INFO  testCases.TC004_PaymentTest - Selected membership category
+22:30:44.396 [main] INFO  testCases.TC004_PaymentTest - Selected membership
+22:30:44.864 [main] INFO  testCases.TC004_PaymentTest - Clicked gotopayment
+22:30:46.314 [main] INFO  testCases.TC004_PaymentTest - Clicked payment method
+22:31:49.058 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml"
+22:31:49.076 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\unittest.xml] otherwise TestNG may fail or not work as expected.

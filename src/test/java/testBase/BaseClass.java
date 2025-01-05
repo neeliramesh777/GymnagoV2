@@ -48,7 +48,7 @@ public void setup(String os, String br) throws IOException{
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.get("https://gymnago.com:8000/");//Reading url from properties file.
+		driver.get("https://gymnago.com:7777/");//Reading url from properties file.
 		driver.manage().window().maximize();
 		
 	}

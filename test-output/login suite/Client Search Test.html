@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Dec 11 22:30:51 AST 2024</td>
+<td>Started on:</td><td>Sun Jan 05 22:24:37 AST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21668 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21710 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC004_PaymentTest.verifyPayment()'><b>verifyPayment</b><br>Test class: testCases.TC004_PaymentTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (224, 139). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+<td title='testCases.TC007_AddMembershipTest.verifyAddMembership()'><b>verifyAddMembership</b><br>Test class: testCases.TC007_AddMembershipTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (297, 165). Other element would receive the click: &lt;li class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-17pxts6&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-selected=&quot;false&quot; data-value=&quot;67495f7644535426e2a3ec95&quot;&gt;...&lt;/li&gt;
   (Session info: chrome=131.0.6778.109)
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b6592bd99d42b95278c831af2aa5cd1, clickElement {id=f.769845EF419FFC5E5E7F02DA880C5DDD.d.7206911747807E15CC648B11092CB85E.e.299}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64328/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5b6592bd99d42b95278c831af2aa5cd1)] -&gt; xpath: //li/span[contains(text(), &apos;One Month Pack&apos;)]]
-Session ID: 5b6592bd99d42b95278c831af2aa5cd1
+Command: [5c8dc6365e47b1e4f08a0502b7bdd46c, clickElement {id=f.4FAD4C407FDA902C3025AAB38630F92D.d.BCE3880036D919C1B14913ECAE774C00.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c8dc6365e47b1e4f08a0502b7bdd46c)] -&gt; xpath: //ul/li/span[contains(text(), &apos;One month&apos;)]]
+Session ID: 5c8dc6365e47b1e4f08a0502b7bdd46c
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -95,19 +95,19 @@ Session ID: 5b6592bd99d42b95278c831af2aa5cd1
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObjects.PaymentPage.selectMembership(PaymentPage.java:154)
-	at testCases.TC004_PaymentTest.verifyPayment(TC004_PaymentTest.java:63)
+	at pageObjects.AddMembershipPage.selectValidityPeriod(AddMembershipPage.java:63)
+	at testCases.TC007_AddMembershipTest.verifyAddMembership(TC007_AddMembershipTest.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1035363280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1035363280'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (224, 139). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1193710204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1193710204'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (297, 165). Other element would receive the click: &lt;li class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-17pxts6&quot; tabindex=&quot;-1&quot; role=&quot;option&quot; aria-selected=&quot;false&quot; data-value=&quot;67495f7644535426e2a3ec95&quot;&gt;...&lt;/li&gt;
   (Session info: chrome=131.0.6778.109)
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b6592bd99d42b95278c831af2aa5cd1, clickElement {id=f.769845EF419FFC5E5E7F02DA880C5DDD.d.7206911747807E15CC648B11092CB85E.e.299}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64328/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5b6592bd99d42b95278c831af2aa5cd1)] -&gt; xpath: //li/span[contains(text(), &apos;One Month Pack&apos;)]]
-Session ID: 5b6592bd99d42b95278c831af2aa5cd1
+Command: [5c8dc6365e47b1e4f08a0502b7bdd46c, clickElement {id=f.4FAD4C407FDA902C3025AAB38630F92D.d.BCE3880036D919C1B14913ECAE774C00.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c8dc6365e47b1e4f08a0502b7bdd46c)] -&gt; xpath: //ul/li/span[contains(text(), &apos;One month&apos;)]]
+Session ID: 5c8dc6365e47b1e4f08a0502b7bdd46c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,8 +121,8 @@ Session ID: 5b6592bd99d42b95278c831af2aa5cd1
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObjects.PaymentPage.selectMembership(PaymentPage.java:154)
-	at testCases.TC004_PaymentTest.verifyPayment(TC004_PaymentTest.java:63)
+	at pageObjects.AddMembershipPage.selectValidityPeriod(AddMembershipPage.java:63)
+	at testCases.TC007_AddMembershipTest.verifyAddMembership(TC007_AddMembershipTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,8 +152,8 @@ Session ID: 5b6592bd99d42b95278c831af2aa5cd1
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>12</td>
-<td>testCases.TC004_PaymentTest@751d3241</td></tr>
+<td>7</td>
+<td>testCases.TC007_AddMembershipTest@3f2ef586</td></tr>
 </table><p>
 </body>
 </html>

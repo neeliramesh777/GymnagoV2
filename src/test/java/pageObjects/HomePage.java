@@ -1,9 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage{
 
@@ -30,6 +34,11 @@ WebElement lnkClients;
 @FindBy(xpath = "//a[normalize-space()='Payment']")
 WebElement lnkPaymentsTab;
 
+@FindBy(xpath = "//span/img[@src= \"/assets/Membership-2e6041ac.svg\"]")
+WebElement tabMembership;
+
+@FindBy(xpath = "//a[@href='/membership/viewmembership']//span[@class='d-inline-block'][normalize-space()='Membership']")
+WebElement lnkMembershipTab;
 
 
 public boolean isAdminDisplayed() {
@@ -63,5 +72,16 @@ public void clickClients() {
 public void clickPaymentsTab() {
 	lnkPaymentsTab.click();
 }
+
+public void clickMembershipTab() {
+	tabMembership.click();
+}
+
+public void clickMembershipSubTab() {
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    wait.until(ExpectedConditions.elementToBeClickable(lnkMembershipTab));
+	lnkMembershipTab.click();
+}
+
 
 }

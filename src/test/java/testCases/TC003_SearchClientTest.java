@@ -29,13 +29,13 @@ public class TC003_SearchClientTest extends BaseClass{
 			//Assert.assertTrue(status);
 				
 				//cp.setSearch("Charan New");
-				cp.clickOnClient("Charan New");
+				cp.clickOnClient("Peter RN");
 				cp.clickViewClient();
 				cp.clickDetails();
 				String value=cp.getFirstname();
 		        logger.info("Details");
 				System.out.println(value);
-				if(value.contains("Charan")) {
+				if(value.contains("Peter")) {
 					Assert.assertTrue(true);
 				}else {
 					Assert.assertTrue(false);

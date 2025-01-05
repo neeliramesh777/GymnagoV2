@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-22T16:01:02 AST" name="Logintestsuite" finished-at="2024-12-22T16:01:28 AST" duration-ms="26469">
+  <suite started-at="2025-01-05T22:24:37 AST" name="login suite" finished-at="2025-01-05T22:24:59 AST" duration-ms="21710">
     <groups>
     </groups>
-    <test started-at="2024-12-22T16:01:02 AST" name="Login test" finished-at="2024-12-22T16:01:28 AST" duration-ms="26469">
-      <class name="testCases.TC005_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_LoginTest@76c7beb3]" started-at="2024-12-22T16:01:02 AST" name="setup" finished-at="2024-12-22T16:01:18 AST" duration-ms="16442" status="PASS">
+    <test started-at="2025-01-05T22:24:37 AST" name="Client Search Test" finished-at="2025-01-05T22:24:59 AST" duration-ms="21710">
+      <class name="testCases.TC007_AddMembershipTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_AddMembershipTest@3f2ef586]" started-at="2025-01-05T22:24:37 AST" name="setup" finished-at="2025-01-05T22:24:51 AST" duration-ms="14304" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValid()[pri:0, instance:testCases.TC005_LoginTest@76c7beb3]" started-at="2024-12-22T16:01:18 AST" name="verifyLoginWithValid" finished-at="2024-12-22T16:01:21 AST" duration-ms="2685" status="PASS">
+        <test-method signature="verifyAddMembership()[pri:0, instance:testCases.TC007_AddMembershipTest@3f2ef586]" started-at="2025-01-05T22:24:51 AST" name="verifyAddMembership" finished-at="2025-01-05T22:24:59 AST" duration-ms="7195" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (297, 165). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-17pxts6" tabindex="-1" role="option" aria-selected="false" data-value="67495f7644535426e2a3ec95">...</li>
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c8dc6365e47b1e4f08a0502b7bdd46c, clickElement {id=f.4FAD4C407FDA902C3025AAB38630F92D.d.BCE3880036D919C1B14913ECAE774C00.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c8dc6365e47b1e4f08a0502b7bdd46c)] -> xpath: //ul/li/span[contains(text(), 'One month')]]
+Session ID: 5c8dc6365e47b1e4f08a0502b7bdd46c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (297, 165). Other element would receive the click: <li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-17pxts6" tabindex="-1" role="option" aria-selected="false" data-value="67495f7644535426e2a3ec95">...</li>
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c8dc6365e47b1e4f08a0502b7bdd46c, clickElement {id=f.4FAD4C407FDA902C3025AAB38630F92D.d.BCE3880036D919C1B14913ECAE774C00.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58212/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c8dc6365e47b1e4f08a0502b7bdd46c)] -> xpath: //ul/li/span[contains(text(), 'One month')]]
+Session ID: 5c8dc6365e47b1e4f08a0502b7bdd46c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pageObjects.AddMembershipPage.selectValidityPeriod(AddMembershipPage.java:63)
+at testCases.TC007_AddMembershipTest.verifyAddMembership(TC007_AddMembershipTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_LoginTest@76c7beb3]" started-at="2024-12-22T16:01:21 AST" name="tearDown" finished-at="2024-12-22T16:01:21 AST" duration-ms="158" status="PASS">
+        </test-method> <!-- verifyAddMembership -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_AddMembershipTest@3f2ef586]" started-at="2025-01-05T22:24:59 AST" name="tearDown" finished-at="2025-01-05T22:24:59 AST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC005_LoginTest -->
-      <class name="testCases.TC006_LoginWithInvalid">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_LoginWithInvalid@611df6e3]" started-at="2024-12-22T16:01:21 AST" name="setup" finished-at="2024-12-22T16:01:26 AST" duration-ms="5137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Window]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalid()[pri:0, instance:testCases.TC006_LoginWithInvalid@611df6e3]" started-at="2024-12-22T16:01:26 AST" name="verifyLoginWithInvalid" finished-at="2024-12-22T16:01:28 AST" duration-ms="1831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_LoginWithInvalid@611df6e3]" started-at="2024-12-22T16:01:28 AST" name="tearDown" finished-at="2024-12-22T16:01:28 AST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC006_LoginWithInvalid -->
-    </test> <!-- Login test -->
-  </suite> <!-- Logintestsuite -->
+      </class> <!-- testCases.TC007_AddMembershipTest -->
+    </test> <!-- Client Search Test -->
+  </suite> <!-- login suite -->
 </testng-results>
