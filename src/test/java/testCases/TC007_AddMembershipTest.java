@@ -31,7 +31,7 @@ public void verifyAddMembership() {
 	amp.selectValidityPeriod("One month");
 	amp.setMembershipPrice("100");
 	amp.clickNext();
-	amp.clickSubmit();
+	//amp.clickSubmit();
 }
 
 

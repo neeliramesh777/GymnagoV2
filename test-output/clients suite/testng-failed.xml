@@ -5,13 +5,13 @@
     <parameter name="os" value="Window"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_AddClientTest">
+      <class name="testCases.TC008_EditClientTest">
         <methods>
           <include name="tearDown"/>
+          <include name="VerifyEditClientWithValidData"/>
           <include name="setup"/>
-          <include name="verify_Add_Client"/>
         </methods>
-      </class> <!-- testCases.TC002_AddClientTest -->
+      </class> <!-- testCases.TC008_EditClientTest -->
     </classes>
   </test> <!-- add client test(failed) -->
 </suite> <!-- Failed suite [clients suite] -->

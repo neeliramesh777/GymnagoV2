@@ -1,11 +1,16 @@
 package testBase;
 
+import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -18,7 +23,7 @@ public class BaseClass {
 
 	public Logger logger;
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	@Parameters({"os", "browser"})
 	@BeforeClass
@@ -76,4 +81,21 @@ public void setup(String os, String br) throws IOException{
 		String generatednumber=RandomStringUtils.randomNumeric(3);
 		return(generatedstring+"@"+generatednumber);
 	}
+	
+	public String captureScreen(String testname) throws IOException{
+		String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot takesScreenshot=(TakesScreenshot) driver;
+		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		
+		String targetFilePath = ".\\screenshots\\" + testname+"_"+timestamp + ".png";
+		File targetFile = new File(targetFilePath);
+		
+		sourceFile.renameTo(targetFile);
+		
+		return targetFilePath;
+	}
+	
+	
+	
 }

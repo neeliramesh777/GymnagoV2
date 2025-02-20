@@ -34,7 +34,7 @@ WebElement btnSubmit;
 @FindBy(xpath = "//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl custom-multiselect css-79r2em']//div[@role='button']")
 WebElement divGender;
 
-@FindBy(linkText = "Next")
+@FindBy(xpath = "//*[text()='Next']")
 WebElement btnNext;
 
 

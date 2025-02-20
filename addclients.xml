@@ -3,7 +3,8 @@
 		<parameter name="os" value="Window"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="testCases.TC002_AddClientTest"></class>
+			<!-- <class name="testCases.TC002_AddClientTest"></class>-->
+			<class name="testCases.TC008_EditClientTest"></class>
 		</classes>
 	</test>
 </suite>

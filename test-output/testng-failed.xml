@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [login suite]">
-  <test thread-count="5" name="Client Search Test(failed)">
+<suite name="Failed suite [Logintestsuite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Login test(failed)">
     <parameter name="os" value="Window"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_AddMembershipTest">
+      <class name="testCases.TC005_LoginTest">
         <methods>
+          <include name="verifyLoginWithValid"/>
           <include name="tearDown"/>
-          <include name="verifyAddMembership"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC007_AddMembershipTest -->
+      </class> <!-- testCases.TC005_LoginTest -->
     </classes>
-  </test> <!-- Client Search Test(failed) -->
-</suite> <!-- Failed suite [login suite] -->
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [Logintestsuite] -->

@@ -36,7 +36,9 @@ public class TC002_AddClientTest extends BaseClass{
 		acp.clickTermsAndConditions();
 		acp.clickSigntab();
 		acp.clickCloseTandC();
+		
 		acp.clickSubmit();
+		logger.info("Clicked on submit");
 		boolean status=acp.conifrmationmsg();
 		
 		if(status==true) {

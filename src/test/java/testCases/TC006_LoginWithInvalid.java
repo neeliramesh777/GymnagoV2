@@ -14,7 +14,7 @@ public class TC006_LoginWithInvalid extends BaseClass{
 	public void verifyLoginWithInvalid() {
 		logger.info("***Starting login test***");
 		LoginPage lp=new LoginPage(driver);
-		lp.login("admin@gmail.com", "12345");
+		lp.login("admin@pixl.com", "sk12345");
 		
 		Boolean status=lp.isMsgDisplayed();
 			

@@ -1,4 +1,9 @@
 <suite name="Logintestsuite">
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	
 	<test thread-count="5" name="Login test">
 		<parameter name="os" value="Window"></parameter>
 		<parameter name="browser" value="chrome"></parameter>

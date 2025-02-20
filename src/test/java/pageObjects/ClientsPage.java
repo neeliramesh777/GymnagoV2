@@ -45,7 +45,8 @@ WebElement lnkMoreActions;
 @FindBy(xpath = "//a[@class='custom-acc-created__item membership']")
 WebElement lnkMembership;
 
-
+@FindBy(xpath = "//ul[@class='dropdown-menu show']//span[contains(text(),'Edit Client')]")
+WebElement lnkEditClient;
 
 public void clickAddNewClient() {
 	btnAddNewClient.click();
@@ -116,6 +117,10 @@ public String getFirstname() {
 public void membershipPayment() {
 	lnkMoreActions.click();
 	lnkMembership.click();
+}
+
+public void editClient() {
+	lnkEditClient.click();
 }
 
 
