@@ -1,5 +1,10 @@
 package testCases;
 
+
+
+import java.time.Duration;
+import java.util.List;
+
 import javax.xml.xpath.XPath;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
@@ -7,6 +12,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -39,7 +46,7 @@ public class TC008_EditClientTest extends BaseClass{
 			//Assert.assertTrue(status);
 				
 				//cp.setSearch("Charan New");
-				cp.clickOnClient("David zzmos");
+				cp.clickOnClient("David ");
 				cp.editClient();
 				
 				//EditClientPage
@@ -93,13 +100,30 @@ public class TC008_EditClientTest extends BaseClass{
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);",datepicker);
 		datepicker.click();		
-		String monthYear=driver.findElement(By.xpath("//div[@class='MuiDateCalendar-root css-1080di7']//div[@id=':r6k:-grid-label']")).getText();
-		String actualMonthYear="January 2000";
-		WebElement previousyearmonth= driver.findElement(By.xpath("//button[@title='Previous month']//*[name()='svg']"));
-		while(monthYear!=actualMonthYear){
-			previousyearmonth.click();
+	
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+	// Wait for the element to be present (this handles visibility and existence)
+		WebElement month = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/div[2]/div/div/div/div[1]/div[1]/div/div")));
+		 //Scroll the element into view
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", month);
+		//WebElement month = driver.findElement(By.xpath(""));
+		String monthYear = month.getText();
+		System.out.println(monthYear);
+		String actualMonthYear="January 1999";
+		WebElement back= driver.findElement(By.xpath("//button[@title='Previous month']"));
+		while(!monthYear.equalsIgnoreCase(actualMonthYear)){
+			back.click();
+			WebElement newmonth = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/div[2]/div/div/div/div[1]/div[1]/div/div")));
+			 //Scroll the element into view
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", newmonth);
+			monthYear = newmonth.getText();
 		}
+		System.out.println(monthYear);
+		List<WebElement> dates = driver.findElements(By.xpath("//button[contains(@class,'MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin css-1h5ekkr') and normalize-space()='']"));
+		WebElement date = driver.findElement(By.xpath("//button[contains(@class,'MuiButtonBase-root MuiPickersDay-root MuiPickersDay-dayWithMargin css-1h5ekkr') and normalize-space()='30']"));
 		
+		date.click();
 		
 		
 		ec.clickSubmit();

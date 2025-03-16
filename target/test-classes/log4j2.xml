@@ -12,7 +12,7 @@
     
     <RollingFile name="File" fileName="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
 		<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-		<SizeBasedTriggeringPolicy size="5000"/><!-- We can use 50000 for only one file for all logs or common file-->
+		<SizeBasedTriggeringPolicy size="5000"/><!-- We can use 50000 for only one file for all logs or 5000 common file-->
 	</RollingFile>
     
   </Appenders>

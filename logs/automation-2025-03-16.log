@@ -1,0 +1,49 @@
+10:01:36.994 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:01:37.019 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:01:37.529 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:02:14.634 [main] INFO  testCases.TC008_EditClientTest - Searching
+10:04:44.005 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:04:44.040 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:04:44.667 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:04:56.291 [main] INFO  testCases.TC008_EditClientTest - Searching
+10:09:04.028 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:09:04.053 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:09:04.576 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:09:22.029 [main] INFO  testCases.TC008_EditClientTest - Searching
+10:12:44.235 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:12:44.256 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:12:44.775 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:13:03.073 [main] INFO  testCases.TC008_EditClientTest - Searching
+10:14:04.459 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:14:04.486 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:14:04.959 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:14:15.778 [main] INFO  testCases.TC008_EditClientTest - Searching
+10:18:14.171 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:18:14.202 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:18:14.651 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:18:50.293 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+10:18:50.316 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+10:18:50.811 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+10:19:11.694 [main] INFO  testCases.TC008_EditClientTest - Searching
+14:04:19.605 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+14:04:19.620 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
+14:04:19.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml
+
+14:04:42.740 [main] INFO  testCases.TC008_EditClientTest - Searching
+14:09:37.865 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml"
+14:09:37.882 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Workspaces\Automation_2024\GymnagoV2\addclients.xml] otherwise TestNG may fail or not work as expected.
